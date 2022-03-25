@@ -1,0 +1,18 @@
+.cart_section {
+}
+.single_product {
+    background-color: white;
+    align-items: center;
+    border: 2px solid gray;
+    margin: 15px;
+    border-radius: 10px;
+}
+.image_area {
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+}
+.info {
+    padding-left: 35px;
+    padding: 5px;
+}
