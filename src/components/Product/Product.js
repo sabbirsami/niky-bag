@@ -1,9 +1,10 @@
 import React from "react";
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, Col } from "react-bootstrap";
 import "./Product.css";
 
 const Product = (props) => {
     console.log(props);
+
     const { name, price, img } = props.product;
     return (
         <div className="col-lg-4">

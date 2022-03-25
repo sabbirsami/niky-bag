@@ -12,6 +12,9 @@ const Navber = () => {
                             <Nav.Link href="#shop" className="text-white">
                                 Shop
                             </Nav.Link>
+                            <Nav.Link href="#cart" className="text-white">
+                                Cart
+                            </Nav.Link>
                             <Nav.Link href="#about" className="text-white">
                                 About Us
                             </Nav.Link>

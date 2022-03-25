@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 import Product from "../Product/Product";
 
 const Shop = () => {
@@ -14,9 +14,16 @@ const Shop = () => {
         <div>
             <Container>
                 <div className="row">
-                    {products.map((product) => (
-                        <Product key={product.id} product={product}></Product>
-                    ))}
+                    <Col lg={8}>
+                        <div className="row">
+                            {products.map((product) => (
+                                <Product
+                                    key={product.id}
+                                    product={product}
+                                ></Product>
+                            ))}
+                        </div>
+                    </Col>
                 </div>
             </Container>
         </div>
