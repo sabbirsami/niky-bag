@@ -7,10 +7,10 @@ const Cart = (props) => {
         <div>
             <div className="cart_section">
                 <div className="single_product d-flex">
-                    <div className="image_area d-flex">
-                        <img className="w-100 ps-3" src={img} alt="" />
+                    <div className="image_area ps-3 d-flex">
+                        <img className="w-100" src={img} alt="" />
                     </div>
-                    <div className="info ">
+                    <div className="info ps-3">
                         <h4 className="text-start">{name}</h4>
                         <p className="text-start">Price: ${price}</p>
                     </div>

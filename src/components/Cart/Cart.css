@@ -1,4 +1,6 @@
 .cart_section {
+    position: sticky;
+    top: 0;
 }
 .single_product {
     background-color: white;
@@ -11,6 +13,9 @@
     height: 80px;
     width: 80px;
     padding: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: beige;
 }
 .info {
     padding-left: 35px;

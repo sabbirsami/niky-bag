@@ -1,4 +1,9 @@
 .product_image {
     height: 220px;
     width: auto;
+    border-radius: 5px;
+}
+.cart_area {
+    background-color: beige;
+    padding: 10px;
 }

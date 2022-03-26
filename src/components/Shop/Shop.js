@@ -7,9 +7,35 @@ import "./Shop.css";
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [randomCart, setRandomCart] = useState([]);
+
+    console.log(cart);
     const addToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        const exist = cart.find((carts) => carts === product);
+        if (!exist) {
+            console.log("already");
+            const newCart = [...cart, product];
+            if (newCart.length > 4) {
+                alert("You can't select more then 4 products");
+            } else {
+                setCart(newCart);
+            }
+        }
+    };
+    const chooseOne = () => {
+        if (randomCart.length > 0) {
+            let randomOne = parseInt(
+                Math.round(Math.random() * randomCart.length)
+            );
+            if (randomOne < 0) {
+                randomOne = 0;
+            }
+            setRandomCart([randomCart[randomOne]]);
+            setCart([randomCart[randomOne].id]);
+        }
+    };
+    const chooseAgain = () => {
+        setCart([]);
     };
 
     useEffect(() => {
@@ -21,7 +47,7 @@ const Shop = () => {
         <div>
             <Container>
                 <div className="row">
-                    <div className="col-8">
+                    <Col lg={8}>
                         <div className="row">
                             {products.map((product) => (
                                 <Product
@@ -31,13 +57,13 @@ const Shop = () => {
                                 ></Product>
                             ))}
                         </div>
-                    </div>
+                    </Col>
                     <Col lg={4}>
                         <div className="cart_section bg-warning full-height">
                             <div className="cart_body">
-                                <h1 className="text-start p-3 pb-1">
+                                <h2 className="text-start p-3 pb-1">
                                     Selected Item
-                                </h1>
+                                </h2>
                                 <hr />
                                 {cart.map((product) => (
                                     <Cart
@@ -46,8 +72,17 @@ const Shop = () => {
                                     ></Cart>
                                 ))}
                                 <div className="cart_btn p-3">
-                                    <button className="btn btn-danger text-start w-100">
+                                    <button
+                                        onClick={chooseOne}
+                                        className="btn btn-danger w-100"
+                                    >
                                         Choose 1 for me
+                                    </button>
+                                    <button
+                                        onClick={chooseAgain}
+                                        className="btn btn-success w-100 mt-2"
+                                    >
+                                        Choose again
                                     </button>
                                 </div>
                             </div>
