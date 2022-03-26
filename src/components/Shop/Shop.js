@@ -6,7 +6,12 @@ import "./Shop.css";
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
-    console.log(products);
+    const [cart, setCart] = useState([]);
+    const addToCart = (product) => {
+        const newCart = [...cart, product];
+        setCart(newCart);
+    };
+
     useEffect(() => {
         fetch("data.json")
             .then((res) => res.json())
@@ -16,16 +21,17 @@ const Shop = () => {
         <div>
             <Container>
                 <div className="row">
-                    <Col lg={8}>
+                    <div className="col-8">
                         <div className="row">
                             {products.map((product) => (
                                 <Product
                                     key={product.id}
                                     product={product}
+                                    addToCart={addToCart}
                                 ></Product>
                             ))}
                         </div>
-                    </Col>
+                    </div>
                     <Col lg={4}>
                         <div className="cart_section bg-warning full-height">
                             <div className="cart_body">
@@ -33,12 +39,17 @@ const Shop = () => {
                                     Selected Item
                                 </h1>
                                 <hr />
-                                {products.map((product) => (
-                                    <Cart product={product}></Cart>
+                                {cart.map((product) => (
+                                    <Cart
+                                        key={product.id}
+                                        product={product}
+                                    ></Cart>
                                 ))}
-                                <button className="btn btn-danger text-start">
-                                    Choose 1 for me
-                                </button>
+                                <div className="cart_btn p-3">
+                                    <button className="btn btn-danger text-start w-100">
+                                        Choose 1 for me
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </Col>

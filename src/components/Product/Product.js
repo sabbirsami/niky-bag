@@ -3,11 +3,9 @@ import { Card, CardGroup, Col } from "react-bootstrap";
 import "./Product.css";
 
 const Product = (props) => {
-    console.log(props);
-
     const { name, price, img } = props.product;
     return (
-        <div className="col-lg-4">
+        <div className="col-lg-4 col-sm-6">
             <CardGroup className="p-2">
                 <Card>
                     <Card.Img
@@ -22,7 +20,10 @@ const Product = (props) => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer className="p-0">
-                        <button className="btn btn-warning w-100">
+                        <button
+                            onClick={() => props.addToCart(props.product)}
+                            className="btn btn-warning w-100"
+                        >
                             Add To Cart
                         </button>
                     </Card.Footer>
