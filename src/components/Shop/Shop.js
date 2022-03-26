@@ -7,7 +7,6 @@ import "./Shop.css";
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-    const [randomCart, setRandomCart] = useState([]);
 
     console.log(cart);
     const addToCart = (product) => {
@@ -23,15 +22,13 @@ const Shop = () => {
         }
     };
     const chooseOne = () => {
-        if (randomCart.length > 0) {
-            let randomOne = parseInt(
-                Math.round(Math.random() * randomCart.length)
-            );
+        if (cart.length > 0) {
+            let randomOne = parseInt(Math.round(Math.random() * cart.length));
             if (randomOne < 0) {
                 randomOne = 0;
             }
-            setRandomCart([randomCart[randomOne]]);
-            setCart([randomCart[randomOne].id]);
+
+            setCart(cart[randomOne].id);
         }
     };
     const chooseAgain = () => {
