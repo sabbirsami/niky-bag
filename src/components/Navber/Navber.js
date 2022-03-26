@@ -7,7 +7,7 @@ const Navber = () => {
             <>
                 <Navbar bg="white" variant="white">
                     <Container>
-                        <Navbar.Brand href="#home">Gun47 Store</Navbar.Brand>
+                        <Navbar.Brand href="#home">Nike Bag Store</Navbar.Brand>
                         <Nav className="ms-auto">
                             <Nav.Link href="#shop" className="text-dark">
                                 Shop

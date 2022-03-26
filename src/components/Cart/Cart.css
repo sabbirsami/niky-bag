@@ -12,7 +12,7 @@
 .image_area {
     height: 80px;
     width: 80px;
-    padding: 5px;
+    margin-left: 5px;
     border-radius: 10px;
     padding: 5px;
     background-color: white;
@@ -20,4 +20,7 @@
 .info {
     padding-left: 35px;
     padding: 5px;
+}
+.product_img_radius {
+    border-radius: 5px;
 }

@@ -54,8 +54,11 @@ const Shop = () => {
                             ))}
                         </div>
                     </Col>
-                    <Col lg={4} className="py-2 cart_section sticky-lg-top">
-                        <div className="cart_section bg-warning bg-gradient full-height">
+                    <Col
+                        lg={4}
+                        className="py-3 my-2 cart_section sticky-lg-top bg-warning bg-gradient"
+                    >
+                        <div className="cart_section bg-white bg-gradient full-height">
                             <div className="cart_body">
                                 <h2 className="text-start p-3 pb-1">
                                     Selected Item

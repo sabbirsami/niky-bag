@@ -1,122 +1,122 @@
 [
     {
         "id": 1,
-        "name": "GLOCK 17 Gen5",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/glock.png",
+        "name": "Nike Brasilia JDI",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ea271ee6-e4b7-4b61-84db-1defccabd8ea/brasilia-jdi-kids-backpack-mini-9ZSSdT.png",
         "bullet": "9mm",
         "capacity": "17 + 1",
         "action": "Semi-Automatic",
-        "price": "540",
-        "category": "Pistol"
+        "price": "25",
+        "category": "Bag"
     },
     {
         "id": 2,
-        "name": "FN 509 Tactical",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/FN.png",
+        "name": "Nike Elemental",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6559f1b6-576d-49a7-b241-754a1a52dd72/elemental-kids-printed-backpack-20l-bfmJmj.png",
         "bullet": "9mm",
         "capacity": "10 + 1",
         "action": "Semi-Automatic",
-        "price": "900",
-        "category": "Pistol"
+        "price": "50",
+        "category": "Bag"
     },
     {
         "id": 3,
-        "name": "Kimber Custom 1911",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/ki%2Cber.png",
+        "name": "Nike Classic",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52627505-9ad8-4dbe-bbab-36be70d2df54/classic-kids-backpack-16l-Bb8P5P.png",
         "bullet": "45 ACP",
         "capacity": "7 + 1",
         "action": "Semi-Automatic",
-        "price": "900",
-        "category": "Pistol"
+        "price": "30",
+        "category": "Bag"
     },
     {
         "id": 4,
-        "name": "Beretta M9A4 RDO",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta.png",
+        "name": "Nike Fuel Pack",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6737abd1-b14c-441e-9c68-c1fda7196300/fuel-pack-kids-lunch-bag-nCvgTK.png",
         "bullet": "9mm",
         "capacity": "18 + 1",
         "action": "Semi-Automatic",
-        "price": "1000",
-        "category": "Pistol"
+        "price": "20",
+        "category": "Bag"
     },
     {
         "id": 5,
-        "name": "Beretta A400 Xcel",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta-shotgun.png",
+        "name": "Nike Fuel Pack",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7bff0edc-44a4-414a-a7d6-c1680405e362/fuel-pack-lunch-bag-86Jr94.png",
         "bullet": "12 Gauge",
         "capacity": "3 + 1",
         "action": "Semi-Automatic",
-        "price": "1720",
-        "category": "Shotgun"
+        "price": "28",
+        "category": "Bag"
     },
     {
         "id": 6,
-        "name": "Benelli M1014",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/benalim4.png",
+        "name": "Nike Future Pro",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50715c90-7399-4db5-bc7d-06e2b979cc71/future-pro-kids-duffel-bag-30l-jwQl2m.png",
         "bullet": "12 Gauge",
         "capacity": "5 + 1",
         "action": "Semi-Automatic",
-        "price": "1900",
-        "category": "Shotgun"
+        "price": "90",
+        "category": "Bag"
     },
     {
         "id": 7,
-        "name": "Browning Citori 725",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/Browning.png",
+        "name": "Nike Tanjun",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bd76c858-5594-4870-afcf-af3e81a6406a/tanjun-kids-tote-19l-tbMr9v.png",
         "bullet": "12 Gauge",
         "capacity": "2",
         "action": "Double Shot",
-        "price": "5430",
-        "category": "Shotgun"
+        "price": "30",
+        "category": "Bag"
     },
     {
         "id": 8,
-        "name": "Winchester SXP",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/winchester.png",
+        "name": "Nike Classic",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/02db8a2f-42ff-4565-80a7-912be9bd1ba6/classic-kids-backpack-16l-DbWVt1.png",
         "bullet": "12 Gauge",
         "capacity": "5 + 1",
         "action": "Pump",
-        "price": "570",
-        "category": "Shotgun"
+        "price": "70",
+        "category": "Bag"
     },
     {
         "id": 9,
-        "name": "Bergara B-14 HMR",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
+        "name": "Nike Kids' Gym Sack",
+        "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5a2b3ebf-79bd-4773-bfb5-25d0cc777b51/kids-gym-sack-12l-6M9BgJ.png",
         "bullet": "6.5 Creedmoor",
         "capacity": "5",
         "action": "Semi-Automatic",
-        "price": "970",
-        "category": "Rifle"
+        "price": "10",
+        "category": "Bag"
     },
     {
         "id": 10,
-        "name": "Ruger AR-556",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
+        "name": "Nike Brasilia",
+        "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/57f0204d-6a7a-4168-a433-25caf3899678/brasilia-kids-printed-backpack-18l-Zfbpb2.png",
         "bullet": ".223 NATO",
         "capacity": "30+1",
         "action": "Semi-Automatic",
-        "price": "750",
-        "category": "Rifle"
+        "price": "75",
+        "category": "Bag"
     },
     {
         "id": 11,
-        "name": "Ruger AR-556 MPR",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
+        "name": "Nike Fuel Pack",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/09b5f64c-4b7b-4484-a9a9-5a4f1d4e505c/fuel-pack-lunch-bag-SKmtWS.png",
         "bullet": ".223 NATO",
         "capacity": "30 + 1",
         "action": "Semi-Automatic",
-        "price": "880",
-        "category": "Rifle"
+        "price": "80",
+        "category": "Bag"
     },
     {
         "id": 12,
-        "name": "Savage 110 Elite",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/savage110.png",
+        "name": "Nike Jordan",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f69b2016-e5dd-460a-9b1e-c60d3a5afe3b/jordan-backpack-cWXN5W.png",
         "bullet": ".300 Winchester Magnum",
         "capacity": "5",
         "action": "Bolt",
-        "price": "1870",
-        "category": "Rifle"
+        "price": "70",
+        "category": "Bag"
     }
 ]
