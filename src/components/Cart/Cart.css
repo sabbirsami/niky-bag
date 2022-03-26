@@ -3,9 +3,9 @@
     top: 0;
 }
 .single_product {
-    background-color: white;
+    background-color: #f1efff;
     align-items: center;
-    border: 2px solid wheat;
+    border: 2px solid #f3f1ff;
     margin: 15px;
     border-radius: 10px;
 }
@@ -15,7 +15,7 @@
     padding: 5px;
     border-radius: 10px;
     padding: 5px;
-    background-color: beige;
+    background-color: white;
 }
 .info {
     padding-left: 35px;

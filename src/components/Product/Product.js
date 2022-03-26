@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-import { Card, CardGroup, Col } from "react-bootstrap";
+import { Card, CardGroup } from "react-bootstrap";
 import "./Product.css";
 
 const Product = (props) => {
@@ -24,7 +24,7 @@ const Product = (props) => {
                     <Card.Footer className="p-0">
                         <button
                             onClick={() => props.addToCart(props.product)}
-                            className="btn btn-warning w-100"
+                            className="btn btn-primary bg-primary bg-gradient w-100"
                         >
                             Add To Cart
                             <FontAwesomeIcon

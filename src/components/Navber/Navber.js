@@ -5,17 +5,17 @@ const Navber = () => {
     return (
         <div>
             <>
-                <Navbar bg="dark" variant="dark">
+                <Navbar bg="white" variant="white">
                     <Container>
                         <Navbar.Brand href="#home">Gun47 Store</Navbar.Brand>
                         <Nav className="ms-auto">
-                            <Nav.Link href="#shop" className="text-white">
+                            <Nav.Link href="#shop" className="text-dark">
                                 Shop
                             </Nav.Link>
-                            <Nav.Link href="#cart" className="text-white">
+                            <Nav.Link href="cart" className="text-dark">
                                 Cart
                             </Nav.Link>
-                            <Nav.Link href="#about" className="text-white">
+                            <Nav.Link href="#about" className="text-dark">
                                 About Us
                             </Nav.Link>
                         </Nav>

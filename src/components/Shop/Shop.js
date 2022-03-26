@@ -40,7 +40,7 @@ const Shop = () => {
             .then((data) => setProducts(data));
     }, []);
     return (
-        <div>
+        <div className="product_section_bg pt-2">
             <Container>
                 <div className="row">
                     <Col lg={8}>
@@ -54,8 +54,8 @@ const Shop = () => {
                             ))}
                         </div>
                     </Col>
-                    <Col lg={4}>
-                        <div className="cart_section bg-warning full-height">
+                    <Col lg={4} className="py-2 cart_section sticky-lg-top">
+                        <div className="cart_section bg-warning bg-gradient full-height">
                             <div className="cart_body">
                                 <h2 className="text-start p-3 pb-1">
                                     Selected Item

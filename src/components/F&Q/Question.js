@@ -5,6 +5,7 @@ const Question = () => {
     return (
         <div>
             <Container className="py-5">
+                <h1 className="p-3">Question Answerer</h1>
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>How react work?</Accordion.Header>

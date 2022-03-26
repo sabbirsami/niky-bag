@@ -1,3 +1,6 @@
 .full-height {
     min-height: 100vh;
 }
+.cart_section {
+    border-radius: 10px;
+}
