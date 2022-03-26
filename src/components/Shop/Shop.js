@@ -8,11 +8,9 @@ const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
 
-    console.log(cart);
     const addToCart = (product) => {
         const exist = cart.find((carts) => carts === product);
         if (!exist) {
-            console.log("already");
             const newCart = [...cart, product];
             if (newCart.length > 4) {
                 alert("You can't select more then 4 products");
@@ -29,6 +27,7 @@ const Shop = () => {
             }
 
             setCart(cart[randomOne].id);
+            setCart([cart[randomOne]]);
         }
     };
     const chooseAgain = () => {
