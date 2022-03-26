@@ -5,7 +5,7 @@ const Cart = (props) => {
     const { img, name, price } = props.product;
     return (
         <div>
-            <div className="cart_section" id="cart">
+            <div className="cart_section">
                 <div className="single_product d-flex">
                     <div className="image_area ps-3 d-flex">
                         <img className="w-100" src={img} alt="" />

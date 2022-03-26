@@ -12,7 +12,7 @@ const Navber = () => {
                             <Nav.Link href="#shop" className="text-dark">
                                 Shop
                             </Nav.Link>
-                            <Nav.Link href="cart" className="text-dark">
+                            <Nav.Link href="#cart" className="text-dark">
                                 Cart
                             </Nav.Link>
                             <Nav.Link href="#about" className="text-dark">
