@@ -1,3 +1,3 @@
 # Live website link
 
-https://choose-your-bonduk.netlify.app/
+https://choose-your-niky-bag.netlify.app/
